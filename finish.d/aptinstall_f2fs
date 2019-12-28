@@ -1,0 +1,27 @@
+#!/bin/sh
+
+. /lib/partman/lib/base.sh
+
+f2fs=no
+
+for dev in $DEVICES/*; do
+	[ -d "$dev" ] || continue
+	cd $dev
+	partitions=
+	open_dialog PARTITIONS
+	while { read_line num id size type fs path name; [ "$id" ]; }; do
+		[ "$fs" != free ] || continue
+		[ -f $id/method -a -f $id/acting_filesystem ] || continue
+		filesystem=$(cat $id/acting_filesystem)
+		case $filesystem in
+		    f2fs)
+			f2fs=yes
+			;;
+		esac
+	done
+	close_dialog
+done
+
+if [ "$f2fs" = yes ]; then
+	apt-install f2fs-tools || true
+fi

@@ -1,0 +1,5 @@
+partman-f2fs (1) UNRELEASED; urgency=low
+
+  * Initial packaging, took partman-xfs essentially
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Fri, 03 Jan 2020 16:38:14 +0100
