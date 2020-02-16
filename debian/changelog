@@ -5,5 +5,6 @@ partman-f2fs (1) UNRELEASED; urgency=low
 
   [ Romain Perier ]
   * Add debian/compat for debhelper compatibility to 10
+  * Fix filesystem_long/f2fs description partman-f2fs.templates
 
- -- Romain Perier <romain.perier@gmail.com>  Sun, 16 Feb 2020 16:22:51 +0100
+ -- Romain Perier <romain.perier@gmail.com>  Sun, 16 Feb 2020 18:20:37 +0100
