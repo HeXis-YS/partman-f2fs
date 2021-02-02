@@ -1,14 +1,8 @@
-Template: partman-f2fs/text/f2fs
-Type: text
-# :sl2:
-# File system name (untranslatable in many languages)
-_Description: f2fs
-
 Template: partman/filesystem_long/f2fs
 Type: text
 # :sl2:
 # File system name
-_Description: f2fs journaling file system
+_Description: F2FS journaling file system
 
 Template: partman/filesystem_short/f2fs
 Type: text

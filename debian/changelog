@@ -2,11 +2,8 @@ partman-f2fs (1) UNRELEASED; urgency=low
 
   [ Stephan Lachnit ]
   * Initial packaging, took partman-xfs essentially
-  * Fix some lintian warnings
 
   [ Romain Perier ]
-  * Add debian/compat for debhelper compatibility to 10
-  * Fix filesystem_long/f2fs description partman-f2fs.templates
   * Update the mount options for linux kernels >= 5.5.x
 
- -- Stephan Lachnit <stephanlachnit@protonmail.com>  Sun, 19 Apr 2020 22:10:14 +0200
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Tue, 02 Feb 2021 22:53:54 +0200
