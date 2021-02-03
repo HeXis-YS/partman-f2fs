@@ -1,4 +1,4 @@
-partman-f2fs (1) UNRELEASED; urgency=low
+partman-f2fs (1) unstable; urgency=low
 
   [ Stephan Lachnit ]
   * Initial packaging, took partman-xfs essentially
@@ -6,4 +6,4 @@ partman-f2fs (1) UNRELEASED; urgency=low
   [ Romain Perier ]
   * Update the mount options for linux kernels >= 5.5.x
 
- -- Stephan Lachnit <stephanlachnit@protonmail.com>  Tue, 02 Feb 2021 22:53:54 +0200
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Wed, 03 Feb 2021 21:28:39 +0100
